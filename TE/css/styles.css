@@ -1,0 +1,87 @@
+/* General body and header styles (reutilizados) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #6abd45;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#plantaciones {
+    padding: 2rem;
+}
+
+#plantaciones-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.plantacion-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.plantacion-card:hover {
+    transform: scale(1.05);
+}
+
+.plantacion-card h3 {
+    margin-top: 0;
+    color: #006d35;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #004d26 !important;
+}
+
+#resumen {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contador {
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contador span {
+    font-size: 40px;
+    color: #4CAF50;
+}
